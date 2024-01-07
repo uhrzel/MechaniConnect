@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'My App',
-      debugShowCheckedModeBanner: false, // Set this to false
+      debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
         '/': (context) => HomeScreen(),
@@ -34,7 +34,7 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Image.asset(
-              'assets/logo.gif', // Replace with your image asset
+              'assets/logo.gif',
               height: 300,
               width: 300,
             ),
@@ -52,8 +52,8 @@ class HomeScreen extends StatelessWidget {
                     Navigator.pushNamed(context, '/user');
                   },
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.green, // Set button color
-                    textStyle: TextStyle(fontSize: 16), // Set button text style
+                    primary: Colors.green,
+                    textStyle: TextStyle(fontSize: 16),
                   ),
                   child: Text('User'),
                 ),
@@ -63,8 +63,8 @@ class HomeScreen extends StatelessWidget {
                     Navigator.pushNamed(context, '/mechanic');
                   },
                   style: ElevatedButton.styleFrom(
-                    primary: Colors.green, // Set button color
-                    textStyle: TextStyle(fontSize: 16), // Set button text style
+                    primary: Colors.green,
+                    textStyle: TextStyle(fontSize: 16),
                   ),
                   child: Text('Mechanic'),
                 ),
