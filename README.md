@@ -23,6 +23,6 @@ For more detailed information on Flutter development, refer to the [online docum
 ## Sample Image
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="https://github.com/uhrzel/MechaniConnect-App/blob/main/assets/github-img1.jpg" width="200" height="500" alt="MechaniConnect">
-  <img src="https://github.com/uhrzel/MechaniConnect-App/blob/main/assets/github-img.jpg" width="200" height="500" alt="MechaniConnect">
+  <img src="https://github.com/uhrzel/MechaniConnect/blob/main/assets/github-img1.jpg" width="200" height="500" alt="MechaniConnect">
+  <img src="https://github.com/uhrzel/MechaniConnect/blob/main/assets/github-img.jpg" width="200" height="500" alt="MechaniConnect">
 </div>
